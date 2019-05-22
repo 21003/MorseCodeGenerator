@@ -18,7 +18,7 @@ public class MorseCode {
         Translation = keyboard.nextLine();
         System.out.println("You have chosen to translate from " +MorseOrEnglish(Translation, userSentence)+"please type in your sentence ");
         userSentence = keyboard.nextLine();
-        
+
 
 
 
@@ -42,11 +42,25 @@ public class MorseCode {
             String [] AlphabetArray = {"a, b, c, d, e, f, g, h ,i ,j, k, l, m, n, o, p, q, r, s, t, u, v, r, s, t, u, v, w, x, y, z,"};
                                        //A,   b,   c,   d, e,   f,    g,    h,   i,    j,   k,   l,   m,  n,  o,    p,    q,   r,   s,  t   ,u,   v,   w,   x,    y,    z
             String [] MorseArray = {".-- ,-... ,-.-. ,-.. ,. ,..-. ,..-. ,.... ,.. ,.--- ,-.- ,.-.. ,-- ,-. ,--- ,.--. ,--.- ,.-. ,.-. ,- ,..- ,...- ,.-- ,-..- ,-.-- ,--.."};
+            int i;
 
-            userSentence.length()
+           for(int i = 0; ;userSentence.length())
 
 
+
+
+               userSentence.length();
+            userSentence.charAt(userSentence.length()-1);
             }
+
+
+            public static String seperateMessage(String userSentence){
+            String temp;
+            temp = "";
+            for(){
+
+
+        }
 
 
 
@@ -59,8 +73,14 @@ public class MorseCode {
                                        //A,   b,   c,   d, e,   f,    g,    h,   i,    j,   k,   l,   m,  n,  o,    p,    q,   r,   s,  t   ,u,   v,   w,   x,    y,    z
             String [] MorseArray = {".-- ,-... ,-.-. ,-.. ,. ,..-. ,..-. ,.... ,.. ,.--- ,-.- ,.-.. ,-- ,-. ,--- ,.--. ,--.- ,.-. ,.-. ,- ,..- ,...- ,.-- ,-..- ,-.-- ,--.."};
 
-        
-        }
+            for(userSentence.length(0);;userSentence.length(userSentence.length()-1))
+
+
+
+
+            userSentence.length();
+            userSentence.charAt(0);
+            }
 
 
 
