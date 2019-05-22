@@ -42,9 +42,10 @@ public class MorseCode {
             String [] AlphabetArray = {"a, b, c, d, e, f, g, h ,i ,j, k, l, m, n, o, p, q, r, s, t, u, v, r, s, t, u, v, w, x, y, z,"};
                                        //A,   b,   c,   d, e,   f,    g,    h,   i,    j,   k,   l,   m,  n,  o,    p,    q,   r,   s,  t   ,u,   v,   w,   x,    y,    z
             String [] MorseArray = {".-- ,-... ,-.-. ,-.. ,. ,..-. ,..-. ,.... ,.. ,.--- ,-.- ,.-.. ,-- ,-. ,--- ,.--. ,--.- ,.-. ,.-. ,- ,..- ,...- ,.-- ,-..- ,-.-- ,--.."};
-            int i;
 
-           for(int i = 0; ;userSentence.length())
+
+           for(int i = 0;i < userSentence.length();i++)
+
 
 
 
@@ -55,9 +56,13 @@ public class MorseCode {
 
 
             public static String seperateMessage(String userSentence){
-            String temp;
-            temp = "";
-            for(){
+            String temp = "";
+            for(int i = 0;i < userSentence.length();i++);{
+                temp += userSentence.charAt(1)+":";
+            }
+
+
+
 
 
         }
