@@ -16,8 +16,9 @@ public class MorseCode {
         System.out.println("To go from English to Morse Code please type 'english'");
         System.out.println("To go from Morse Code to English please type 'morse'");
         Translation = keyboard.nextLine();
-        System.out.println("You have chosen to translate from ""please type in your sentence ");
+        System.out.println("You have chosen to translate from " +MorseOrEnglish(Translation, userSentence)+"please type in your sentence ");
         userSentence = keyboard.nextLine();
+        
 
 
 
@@ -73,15 +74,7 @@ public class MorseCode {
         return Translation;
 
 
-    }
-
-
-        
-
-
-
-
-
+        }
         }
 
 
